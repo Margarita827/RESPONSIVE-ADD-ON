@@ -1,3 +1,15 @@
+
+body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: aquamarine;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 h1 {
  font-family: "Poppins", sans-serif;
  font-weight: 700;
@@ -8,4 +20,62 @@ h1 {
     display: block;
     color: aqua;
 
+}
+
+
+header {
+    background-image: linear-gradient(rgba(28, 13, 13, 0.6), rgba(28, 13, 13, 0.6)),
+    url('../images/Belgium1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 260px 0;
+
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1;
+    margin: 30px 0;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+
+
+    letter-spacing: 30x;
+    text-transform: uppercase;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(41, 179, 186);
+    background: white;
+    padding: 16px 32px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+@media (max-width: 900px) {
+    header {
+        padding: 60px 0;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
+
+    header h2 {
+        font-size: 25px;
+    }
 }
