@@ -1,7 +1,7 @@
 
 body {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background-color: aquamarine;
+background-color: rgb(105, 206, 172);
 }
 
 
@@ -24,10 +24,104 @@ background-color: aquamarine;
    grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid-3-colums {
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-1 {
+    background-color: white;
+}
+
+.card-1 h4 {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.card-1 p {
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+
+ 
+        
+
+
+.card-2 {
+    background-color: white;
+}
+
+.card-2 h4 {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+     margin-top: 4px;
+    margin-left: 10px;
+}
+
+.card-2 p {
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+
+.card-3 {
+    background-color: white;
+}
+
+.card-3 h4 {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+     margin-top: 4px;
+    margin-left: 10px;
+
+}
+
+.card-3 p {
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+.btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: rgb(105, 206, 172);
+
+    padding-bottom 16px
+padding-left 16px
+padding-right 16px
+padding-top 16px
+text-align center
+text-decoration-color rgb(255, 255, 255)
+text-decoration-line none
+text-decoration-style solid
+text-decoration-thickness auto
+text-transform uppercase
+}
+
+.card-footer {
+    padding: 30px;
+}
+
+
 section {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+}
+
+ .text-center {
+    text-align: center;
+ }
+section.secondary {
+    background-color: aliceblue;
 }
 
 h1 {
@@ -38,7 +132,7 @@ h1 {
     margin: 30px 0;
     text-align: center;
     display: block;
-    color: aqua;
+    color: rgb(105, 206, 172);
 
 }
 
@@ -66,6 +160,7 @@ header h2 {
     font-size: 40px;
     line-height: 1.5;
     margin: 0;
+
 }
 
 header a {
@@ -79,7 +174,7 @@ header a {
     text-transform: uppercase;
     background-color: white;
     text-decoration: none;
-    color: rgb(41, 179, 186);
+    color: rgb(105, 206, 172);
     background: white;
     padding: 16px 32px;
     margin-top: 5px;
@@ -97,6 +192,7 @@ main h3 {
     color: black;
     opacity: 0.8;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 main h4 {
