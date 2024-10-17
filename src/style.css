@@ -48,7 +48,10 @@ embed {
     margin-top: 3px;
 }
 
+.embed {
+    aspect-ratio: 16 / 9;
 
+}
 
 .img-responsive {
   size-adjust: 80%;
