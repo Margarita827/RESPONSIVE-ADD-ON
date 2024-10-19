@@ -102,6 +102,7 @@ section {
  }
 section.secondary {
     background-color: aliceblue;
+    align-items: center;
 }
 
 h1 {
